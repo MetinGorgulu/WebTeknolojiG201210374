@@ -1,7 +1,7 @@
 .body{
     display: flex;
     flex-direction: column;
-    font-family:"Lucida Console","Courier New",monospace 
+    font-family:"Lucida Console","Courier New",monospace; 
 }
 .ana{
     display: inherit;
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 140px;
-    margin-left: 400px;
+    margin-left: 23%;
 }
 .main-header{
     display: inherit;
@@ -39,16 +39,16 @@
 
 }
 .makale{
-    width: 900px;
+    width: 78%;
     text-align: center;
 }
 .aside-cubuk{
     display: flex;
     flex-direction: column;
-    margin-top: 121px;
+    margin-top: 110px;
     border: 1px solid rgb(0, 0, 0);
-    width: 200px;
-    height: 632px;
+    width: 13%;
+    height: 100%;
     background-color: rgba(243, 247, 8, 0.658);
     align-items: center;
     padding-top: 50px;
@@ -56,7 +56,7 @@
 
 }
 .sosyal{
-    width: 150px;
+    width: 90%;
     height: 150px;
     align-items: center;
 }
@@ -64,4 +64,13 @@
     background-color: rgb(13, 88, 187);
     height: 40px;
 }
-.yaziduz{text-align: justify;}
+.yaziduz{
+    text-align: justify;
+
+}
+.main-cv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 23%;
+}
