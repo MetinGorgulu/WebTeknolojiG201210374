@@ -1,7 +1,6 @@
 .body{
     display: flex;
     flex-direction: column;
-    font-family:"Lucida Console","Courier New",monospace; 
 }
 .ana{
     display: inherit;
@@ -16,6 +15,10 @@
     color: white;
     font-weight: bolder;
     align-items: center;
+    flex: 1;
+}
+.nav-fix{
+    margin-top:60px;
 }
 .main-ilk{
     display: flex;
@@ -51,13 +54,13 @@
     height: 100%;
     background-color: rgba(243, 247, 8, 0.658);
     align-items: center;
-    padding-top: 50px;
-    padding-left: 22px;
+    padding-top: 5%;
+    padding-left: 2%;
 
 }
 .sosyal{
     width: 90%;
-    height: 150px;
+    height: 30%;
     align-items: center;
 }
 .footer-style{
@@ -73,4 +76,45 @@
     flex-direction: column;
     margin-top: 180px;
     margin-left: 23%;
+}
+.main-ilgi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 23%;
+    margin-right: 10%;
+}
+.baslik {
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin: 0 15% 0 0; 
+    
+}
+.alt-baslik {
+    clear: both;
+    color:#56aaff;
+}
+.ilgi-hobi{
+    float:left;
+}
+.ilgi-hobi2 {
+    float: left;
+    margin-left:37%
+}
+.cv-baslik{
+    float:left;
+    color:red;
+}
+.cv-foto{
+    width:80px;
+    float:left;
+    margin-left:600px
+}
+.cv-altbaslik {
+    clear: both;
+    color: #56aaff;
+}
+.cv-ul {
+    float: left;
 }
