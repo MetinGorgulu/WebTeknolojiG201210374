@@ -1,0 +1,668 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<title>Web Teknoloji Proje Ödevi</title>
+<style>
+    body{
+      min-width: 700px;
+        }
+</style>
+</head>
+<body>
+    <aside>
+        <div class="aside-cubuk fixed-top ">
+            <div>
+                <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/instagram.png" alt=""></a>
+                <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+    </aside>
+    <header class="p-3 bg-dark text-white fixed-top">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <h2 class="header-head">Metin Görgülü</h2>
+                <div class="text-end">
+                    <a class="login-buton btn btn-primary btn-warning" href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-fix"aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Hakkında</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+           aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <a class="navbar-brand" href="ozgecmis.html">Özgeçmiş</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+           aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="ilgialanlarim.html">İlgi Alanlarım</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+           aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="iletisim.html">İletişim</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+           aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="true"
+                 style="font-size: larger;">Şehrim</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                    <li><a class="dropdown-item" href="kayseri-ili.html">Kayseri</a></li>
+                    <li><a class="dropdown-item" href="takimimiz.html">Takımımız</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="main-kayseri">
+          <div class="kayseri">
+              <header>
+                  <h2 class="baslik">KAYSERİ</h2><br /><br />
+                  <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel" style="width:87%; height:500px">
+                      <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      </div>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <a href="kale.html"><img src="images/kale.jpg"class=" kayseri-foto d-block w-100" alt="Kayseri kalesi" title="Kayseri Kalesi"></a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="erciyes.html"><img src="images/erciyes.jpg"class="kayseri-foto d-block w-100" alt="Erciyes Dağı" title="Erciyes Dağı"></a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="saat.html"><img src="images/saat.jpg" class="kayseri-foto d-block w-100" alt="Kayseri saat kulesi" title="Kayseri Saat Kulesi"></a>
+                          </div>
+                          <div class="carousel-item">
+                              <a href="nesibe.html"><img src="images/nesibe.jpg" class="kayseri-foto d-block w-100" alt="Kayseri saat kulesi" title=""></a>
+                          </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div><br /><br /><br />
+              </header><br><br>
+          </div>
+          <div class="kayseri-yazi">
+              <p class="yaziduz">
+                  Kayseri, Türkiye'nin bir ili. Ankara ve Konya'dan sonra İç Anadolu'nun üçüncü büyük kenti ve sanayi merkezidir.
+                  Akkışla, Bünyan, Develi, Hacılar, İncesu, Kocasinan, Melikgazi, Pınarbaşı, Sarıoğlan, Sarız, Tomarza, Yahyalı,
+                  Talas, Özvatan, Felahiye ve Yeşilhisar olmak üzere 16 ilçeden oluşmaktadır.
+
+                  Orta Kızılırmak Bölümünde, Erciyes Dağı'nın eteklerinde bir ildir. Kuzey ve kuzeybatıda Yozgat, kuzey ve kuzeydoğuda Sivas
+                  , doğuda Kahramanmaraş, güneyde Adana, güneybatıda Niğde, batıda ise Nevşehir illeriyle çevrilidir. Dünyanın en eski
+                  şehirlerinden biri olan Kayseri (eski Mazaka, Kaisareia), klasik çağlarda Kapadokya adı verilen bölgededir.
+                  Kızılırmak'ın güneyinde bulunan bu bölge, Tuz Gölü'nden Fırat Nehri'ne kadar uzanır. İpek Yolu buradan geçer.
+                  Bölge, pek çok uygarlığın beşiği olmuştur.
+              </p>
+          </div><br /><br /><br />
+          <h4 class="alt-baslik-kayseri">NÜFUS</h4>
+          <table class="wikitable" style="width:87%">
+
+              <tbody>
+                  <tr bgcolor="#33FFCC">
+                      <td colspan="8" style="text-align:center">
+                          <b>2020 yılı sonunda Kayseri ili ve ilçelerinin yerleşim yeri ve nüfusla ilgili sayısal bilgileri<sup id="cite_ref-9" class="reference"></sup></b>
+                      </td>
+                  </tr>
+
+                  <tr bgcolor="#CCFFCC">
+                      <td>
+                          <b>İlçe</b>
+                      </td>
+                      <td>
+                          <b>Nüfus 2019</b>
+                      </td>
+                      <td>
+                          <b>Nüfus 2020</b>
+                      </td>
+                      <td>
+                          <b>Fark</b>
+                      </td>
+                      <td>
+                          <b>N.Artışı&nbsp;%</b>
+                      </td>
+                      <td>
+                          <b>Mah.Say.</b>
+                      </td>
+                      <td>
+                          <b>Alanı &nbsp;km<sup>2</sup></b><sup id="cite_ref-10" class="reference"></sup>
+                      </td>
+                      <td>
+                          <b>Yoğunluk</b>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Akkışla
+                      </td>
+                      <td>
+                          6.247
+                      </td>
+                      <td>
+                          5.999
+                      </td>
+                      <td>
+                          -248
+                      </td>
+                      <td>
+                          -3,97
+                      </td>
+                      <td>
+                          15
+                      </td>
+                      <td>
+                          371
+                      </td>
+                      <td>
+                          16
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Bünyan
+                      </td>
+                      <td>
+                          30.603
+                      </td>
+                      <td>
+                          30.113
+                      </td>
+                      <td>
+                          -490
+                      </td>
+                      <td>
+                          -1,60
+                      </td>
+                      <td>
+                          46
+                      </td>
+                      <td>
+                          1.210
+                      </td>
+                      <td>
+                          25
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Develi
+                      </td>
+                      <td>
+                          65.745
+                      </td>
+                      <td>
+                          66.250
+                      </td>
+                      <td>
+                          505
+                      </td>
+                      <td>
+                          0,77
+                      </td>
+                      <td>
+                          77
+                      </td>
+                      <td>
+                          1.892
+                      </td>
+                      <td>
+                          35
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Felahiye
+                      </td>
+                      <td>
+                          5.861
+                      </td>
+                      <td>
+                          5.569
+                      </td>
+                      <td>
+                          -292
+                      </td>
+                      <td>
+                          -4,98
+                      </td>
+                      <td>
+                          17
+                      </td>
+                      <td>
+                          444
+                      </td>
+                      <td>
+                          13
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <b>Hacılar</b>
+                      </td>
+                      <td>
+                          12.414
+                      </td>
+                      <td>
+                          12.443
+                      </td>
+                      <td>
+                          29
+                      </td>
+                      <td>
+                          0,23
+                      </td>
+                      <td>
+                          12
+                      </td>
+                      <td>
+                          187
+                      </td>
+                      <td>
+                          67
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <b>İncesu</b>
+                      </td>
+                      <td>
+                          27.969
+                      </td>
+                      <td>
+                          28.567
+                      </td>
+                      <td>
+                          598
+                      </td>
+                      <td>
+                          2,14
+                      </td>
+                      <td>
+                          30
+                      </td>
+                      <td>
+                          874
+                      </td>
+                      <td>
+                          33
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <b>Kocasinan</b>
+                      </td>
+                      <td>
+                          396.912
+                      </td>
+                      <td>
+                          400.726
+                      </td>
+                      <td>
+                          3.814
+                      </td>
+                      <td>
+                          0,96
+                      </td>
+                      <td>
+                          93
+                      </td>
+                      <td>
+                          1.471
+                      </td>
+                      <td>
+                          272
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <b>Melikgazi</b>
+                      </td>
+                      <td>
+                          571.166
+                      </td>
+                      <td>
+                          582.055
+                      </td>
+                      <td>
+                          10.889
+                      </td>
+                      <td>
+                          1,91
+                      </td>
+                      <td>
+                          58
+                      </td>
+                      <td>
+                          668
+                      </td>
+                      <td>
+                          871
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Özvatan
+                      </td>
+                      <td>
+                          4.164
+                      </td>
+                      <td>
+                          3.891
+                      </td>
+                      <td>
+                          -273
+                      </td>
+                      <td>
+                          -6,56
+                      </td>
+                      <td>
+                          13
+                      </td>
+                      <td>
+                          270
+                      </td>
+                      <td>
+                          14
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Pınarbaşı
+                      </td>
+                      <td>
+                          24.080
+                      </td>
+                      <td>
+                          22.900
+                      </td>
+                      <td>
+                          -1.180
+                      </td>
+                      <td>
+                          -4,90
+                      </td>
+                      <td>
+                          122
+                      </td>
+                      <td>
+                          3.418
+                      </td>
+                      <td>
+                          7
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Sarıoğlan
+                      </td>
+                      <td>
+                          14.552
+                      </td>
+                      <td>
+                          14.107
+                      </td>
+                      <td>
+                          -445
+                      </td>
+                      <td>
+                          -3,06
+                      </td>
+                      <td>
+                          27
+                      </td>
+                      <td>
+                          642
+                      </td>
+                      <td>
+                          22
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Sarız
+                      </td>
+                      <td>
+                          9.583
+                      </td>
+                      <td>
+                          9.537
+                      </td>
+                      <td>
+                          -46
+                      </td>
+                      <td>
+                          -0,48
+                      </td>
+                      <td>
+                          44
+                      </td>
+                      <td>
+                          1.173
+                      </td>
+                      <td>
+                          8
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <b>Talas</b>
+                      </td>
+                      <td>
+                          163.773
+                      </td>
+                      <td>
+                          165.127
+                      </td>
+                      <td>
+                          1.354
+                      </td>
+                      <td>
+                          0,83
+                      </td>
+                      <td>
+                          30
+                      </td>
+                      <td>
+                          444
+                      </td>
+                      <td>
+                          372
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Tomarza
+                      </td>
+                      <td>
+                          22.166
+                      </td>
+                      <td>
+                          22.028
+                      </td>
+                      <td>
+                          -138
+                      </td>
+                      <td>
+                          -0,62
+                      </td>
+                      <td>
+                          54
+                      </td>
+                      <td>
+                          1.405
+                      </td>
+                      <td>
+                          16
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Yahyalı
+                      </td>
+                      <td>
+                          36.076
+                      </td>
+                      <td>
+                          36.208
+                      </td>
+                      <td>
+                          132
+                      </td>
+                      <td>
+                          0,37
+                      </td>
+                      <td>
+                          41
+                      </td>
+                      <td>
+                          1.587
+                      </td>
+                      <td>
+                          23
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Yeşilhisar
+                      </td>
+                      <td>
+                          16.098
+                      </td>
+                      <td>
+                          15.935
+                      </td>
+                      <td>
+                          -163
+                      </td>
+                      <td>
+                          -1,01
+                      </td>
+                      <td>
+                          35
+                      </td>
+                      <td>
+                          913
+                      </td>
+                      <td>
+                          17
+                      </td>
+                  </tr>
+
+                  <tr bgcolor="#AFEEEE">
+                      <td>
+                          <b>Kayseri</b>
+                      </td>
+                      <td>
+                          <b>1.407.409</b>
+                      </td>
+                      <td>
+                          <b>1.421.455</b>
+                      </td>
+                      <td>
+                          <b>14.046</b>
+                      </td>
+                      <td>
+                          <b>1,00</b>
+                      </td>
+                      <td>
+                          <b>714</b>
+                      </td>
+                      <td>
+                          <b>16.969</b>
+                      </td>
+                      <td>
+                          <b>84</b>
+                      </td>
+                  </tr>
+              </tbody>
+          </table><br /><br /><br /><br />
+          <div class="kayseri-yazi">
+              <h4 class="alt-baslik-kayseri">MÜZELER</h4>
+              <ul>
+                  <li>Kayseri Arkeoloji Müzesi</li>
+                  <li>Atatürk Evi</li>
+                  <li>Güpgüpoğlu Konağı Etnoğrafya Müzesi</li>
+                  <li>Selçuklu Uygarlığı Müzesi (Gevher Nesibe Tıp Tarihi Müzesi)</li>
+                  <li>Kayseri Lisesi Milli Mücadele Müzesi</li>
+                  <li>Ahi Evran Sanatkârlar Müzesi</li>
+                  <li>Kadir Has Kent ve Mimar Sinan Müzesi</li>
+                  <li>Kayseri Kalesi Arkeoloji Müzesi</li>
+                  <li>Kayseri Etnoğrafya Müzesi</li>
+                  <li>Sultansazlığı Kuş Müzesi</li>
+              </ul><br /><br />
+              <h4 class="alt-baslik-kayseri">MUTFAK</h4>
+              <p>Mantı, pastırma, sucuk, sucuk içi, çemen, fırınağzı, Kayseri Ketesi, Pehli, Yağlama (Şebit Mantısı)'dır.
+              Kabak çiçeği dolması ile içli köfte de yapılır, yöre sarımsak ve baharatlı yemekleri ile tanınır.
+              Ayrıca Nevzine tatlısı da Kayseri'ye özgü bir tatlı çeşididir.</p><br /><br />
+              <h4 class="alt-baslik-kayseri">TURİZM</h4><br />
+              <h5 class="alt-baslik-kayseri1">Erciyes Dağı</h5>
+              <p>Şehir merkezine yakınlığı ve dünyaca ünlü toz karı ile meşhur Erciyes Dağı, şehrin güney kısmında yer alır.
+              Deniz seviyesinden yüksekliği 3.917 metredir. Türkiye'nin büyük dağlarından biri olma özelliğine sahip olan Erciyes,
+              yıl içerisinde kayak yapmak için uygun bir alan olarak görülebilir.</p><br />
+              <p>Türkiye'nin kayak pistine sahip bölgelerinden biridir. Ayrıca sağlık turizmi açısından da, gerek temiz 
+              ve yumuşak havası gerekse doğal zengin mineralli kaynak sularıyla sağlık ve kış sporları için uygundur. 
+              Var olan Erciyes kayak bölgesi, alt istasyonu deniz seviyesinden yaklaşık 2200 metre yükseklikte olan ve Kayseri’ye 
+              yaklaşık 23 kilometre uzaklıkta olan Tekir Yaylası üzerine kurulmuştur. Bol kar alışı ve havasından dolayı kayak
+              mevsimi uzun olan bir dağdır.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Kıranardı Kent Ormanı</h5>
+              <p>850.000 metrekare yüz ölçümü, spor ve yürüyüş alanları ve restoranları bulunan Kayseri'ye kara yoluyla 10 dk uzaklıkta bir bölgedir.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Kapuzbaşı Şelaleleri</h5>
+              <p>Yahyalı ilçesinin Küçükçakır köyünün kuzeyinde bulunan Ensenin tepesinde yer almaktadır. Kapuzbaşı şelaleleri irtifa akışı 
+              itibarıyla Niagara'dan (55 m), Finlandiya'da bulunan İmatra'dan (25 m), Erzurum’daki Tortum’dan (50 m), 
+              Antalya’da bulunan Düden’den (25 m) ve Manavgat’tan (5 m) daha büyüktür.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Sultan sazlığı</h5>
+              <p>Dünyanın sayılı kuş yurtlarından biridir. Sultansazlığı, barındırdığı kuş varlığı ile Avrupa ve Orta Doğu'nun en önemli sulak alanlarından biridir.
+              Sultansazlığı'nda şimdiye kadar 251 kuş türü tespit edilmiştir. 600 bin adet ördek, kaz ve flamingo tespit edilmiştir.
+              17.200 hektarlık alanı kapsamaktadır. 1971 yılında alanın Türkiye Cumhuriyeti Tarım ve Orman Bakanlığı tarafından 
+              "Su Kuşları Koruma ve Üretme Sahası" olarak ilan edilmesini takiben, koruma çalışmaları başlatılmıştır.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Koramaz Vadisi</h5>
+              <p>Deprem kırığı sonucunda oluşan ve doğu-batı yönünde konumlanan vadinin uzunluğu 12 km iken rakımı 250 m ila 1.550 m arasında değişmektedir.
+              Vadide kayadan yapılmış kırk iki tane kilise vardır. UNESCO, 2020'de vadiyi Dünya Mirası Geçici Listesi'ne dahil etti.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Kültepe</h5>
+              <p>Kayseri tarihini 6 bin yıl önceye dayandıran belgelerin gün ışığına çıkarıldığı Kültepe, Kayseri merkeze 24 kilometre uzaklıktadır.
+              Hititlerin Anadolu’da kurduğu ilk kentin kalıntısı olan höyük ve onu saran Karum’dan oluşan Kültepe Ören Yeri’nde yönetim binalarının,
+              dini yapıların, ev, dükkân ve atölyelerin kalıntıları görülmektedir.</p><br /><br />
+              <h5 class="alt-baslik-kayseri1">Kültepe Tabletleri</h5>
+              <p>Asurların kurduğu büyük ticaret kolonileri karumların merkezi Kültepe’deki Karum’du ve diğer karumları yönetiyordu.
+              Kültepe, Anadolu’daki ilk yazılı tabletleri barındırması ve dünyanın ilk organize ticaret merkezi olmasıyla ön plana çıkmaktadır.
+              Asur çivi yazısı ile yazılan bu tabletlerde, dönemin siyasi ve hukuki ilişkilerini gösteren mektuplar, senetler, mühürler ve anlaşma metinleri vardır.
+              Söz konusu tabletler 2015 yılında Unesco Dünya Belleği listesine alınmıştır.</p><br /><br />
+          </div>
+      <br /><br /><br /><br /></main>
+
+  <footer class="page-footer font-small blue fixed-bottom footer-style">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Metin Görgülü Web Teknoloji Performans Ödevi
+  </div>
+</footer>
+</body>
+</html>
