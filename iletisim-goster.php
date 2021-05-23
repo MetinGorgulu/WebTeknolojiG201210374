@@ -1,0 +1,36 @@
+﻿<?php
+error_reporting(0);
+echo "Adınız:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["ad"];
+echo "<br>";
+echo "Soyadınız:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["soyad"];
+echo "<br>";
+echo "E-mailiniz:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["email"];
+echo "<br>";
+echo "Cinsiyetiniz:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["cinsiyet"];
+echo "<br>";
+echo "Hobileriniz:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["hobi1"];
+echo $_POST["hobi2"];
+echo $_POST["hobi3"];
+echo $_POST["hobi4"];
+echo $_POST["hobi5"];
+echo $_POST["hobi6"];
+echo $_POST["hobi7"];
+echo "<br>";
+echo "Kendin Hakkında:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["mesaj"];
+echo "<br>";
+echo "En Sevdiğin Araba Markası:&nbsp&nbsp";
+echo $_POST["araba"];
+echo "<br>";
+echo "Okuduğun Üniversite:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+echo $_POST["uni"];
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "SONUÇ OLARAK ARKADAŞIM OLMAYA HAK KAZANDINIZ.";
+?>

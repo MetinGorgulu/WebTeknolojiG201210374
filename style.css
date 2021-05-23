@@ -172,17 +172,17 @@
 }
 
 .login-yer{
-    margin-right:15%
+    margin-right:5%
 }
 .login-form {
     display: flex;
     flex-direction: column;
     margin-top: 140px;
-    margin-left: 23%;
+    margin-left: 17%;
     font-family: Raleway, sans-serif;
 }
 .giris-yer{
-    margin-left:52%;
+    margin-left:34%;
 }
 .login-baslik{
     color:red;
@@ -191,4 +191,10 @@
     text-align:center;
     color:red;
     font-size:20px;
+}
+.iletisim-label{
+    color:red;
+}
+.footer-text {
+    color: white;
 }

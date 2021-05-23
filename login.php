@@ -23,7 +23,7 @@ integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9E
         <div class="aside-cubuk fixed-top ">
             <div>
                 <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/instagram.png" alt=""></a>
-                <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/twitter.png" alt=""></a>
+                <a href="https://twitter.com/metgor"><img class="sosyal" src="images/twitter.png" alt=""></a>
                 <a href="https://www.instagram.com/mtngrgl/"><img class="sosyal" src="images/facebook.png" alt=""></a>
             </div>
         </div>
@@ -69,7 +69,7 @@ integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9E
                  style="font-size: larger;">Şehrim</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown07">
                     <li><a class="dropdown-item" href="kayseri-ili.html">Kayseri</a></li>
-                    <li><a class="dropdown-item" href="Miras.html">Mirasımız</a></li>
+                    <li><a class="dropdown-item" href="Miras.html">mirasımız</a></li>
                 </ul>
               </li>
             </ul>
@@ -111,7 +111,7 @@ integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9E
     </main>
 
   <footer class="page-footer font-small blue fixed-bottom footer-style">
-  <div class="footer-copyright text-center py-3">© 2020 Copyright: Metin Görgülü Web Teknoloji Performans Ödevi
+  <div class="footer-text text-center py-3">Metin Görgülü Web Teknoloji Performans Ödevi
   </div>
 </footer>
 </body>
